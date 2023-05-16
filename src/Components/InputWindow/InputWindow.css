@@ -1,0 +1,34 @@
+.InputWindow{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    grid-area: InputWindow;
+}
+
+.Apply_button{
+    transition: .4s ease;
+}
+
+.Apply_button:hover{
+    background: cadetblue;
+    color: white;
+}
+
+.Ico{
+    border-radius: 15px;
+    transition: .7s ease;
+}
+
+.Ico:hover{
+    background: cadetblue;
+}
+
+
+
+@media screen and (max-width: 550px){
+    .Ico{
+        width: 10px;
+        height: 10px;
+    }
+}

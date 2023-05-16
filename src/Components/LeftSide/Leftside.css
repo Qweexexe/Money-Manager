@@ -1,0 +1,20 @@
+
+
+div{
+
+    grid-area: leftside;
+}
+
+h1,h2,h3,p{
+    margin: 0;
+    padding: 0;
+    color: yellow;
+}
+
+.RightDiv{
+    transition: .5s ease;
+}
+
+.RightDiv:hover{
+    background: cadetblue;
+}
